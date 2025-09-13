@@ -1,0 +1,26 @@
+{
+  "name": "lyte",
+  "version": "1.0.0",
+  "description": "A frontend framework inspired by solid js but more smaller and faster.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kashina69/lyte"
+  },
+  "keywords": [
+    "frontend",
+    "framework",
+    "solid",
+    "reactivity",
+    "signals",
+    "react",
+    "web",
+    "javascript",
+    "typescript"
+  ],
+  "author": "prince rawat",
+  "license": "MIT"
+}
