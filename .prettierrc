@@ -1,0 +1,9 @@
+{
+  "semi": true,              // always add semicolons
+  "singleQuote": false,      // use double quotes
+  "trailingComma": "es5",    // trailing commas in arrays/objects/functions
+  "printWidth": 80,          // max line length
+  "tabWidth": 2,             // indentation size
+  "arrowParens": "always"    // (x) => instead of x => 
+}
+

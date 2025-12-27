@@ -1,11 +1,15 @@
 {
   "name": "lyte",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A frontend framework inspired by solid js but more smaller and faster.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "test"
-  },
+    "dev": "vite",
+    "test": "vitest",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .js,.ts",
+"build": "tsc src/index.ts --outDir dist --module esnext --declaration false --lib dom,es2015"  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Kashina69/lyte"
@@ -22,5 +26,13 @@
     "typescript"
   ],
   "author": "prince rawat",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "eslint": "^9.35.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5",
+    "vitest": "^3.2.4"
+  }
 }
